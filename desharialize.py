@@ -76,9 +76,9 @@ if '--file' in myargs or '-f' in myargs:
     file.close()
     
 
-sharepoint2019and2016 = "?PickerDialogType=Microsoft.SharePoint.WebControls.ItemPickerDialog,+Microsoft.SharePoint,+Version=16.0.0.0,+Culture=neutral,+PublicKeyToken=71e9bce111e9429c";
-sharepoint2013 = "?PickerDialogType=Microsoft.SharePoint.WebControls.ItemPickerDialog,+Microsoft.SharePoint,+Version=15.0.0.0,+Culture=neutral,+PublicKeyToken=71e9bce111e9429c";
-sharepoint2010 = "?PickerDialogType=Microsoft.SharePoint.WebControls.ItemPickerDialog,+Microsoft.SharePoint,+Version=14.0.0.0,+Culture=neutral,+PublicKeyToken=71e9bce111e9429c";
+sharepoint2019and2016 = "?PickerDialogType=Microsoft.SharePoint.Portal.WebControls.ItemPickerDialog,+Microsoft.SharePoint,+Version=16.0.0.0,+Culture=neutral,+PublicKeyToken=71e9bce111e9429c";
+sharepoint2013 = "?PickerDialogType=Microsoft.SharePoint.Portal.WebControls.ItemPickerDialog,+Microsoft.SharePoint,+Version=15.0.0.0,+Culture=neutral,+PublicKeyToken=71e9bce111e9429c";
+sharepoint2010 = "?PickerDialogType=Microsoft.SharePoint.Portal.WebControls.ItemPickerDialog,+Microsoft.SharePoint,+Version=14.0.0.0,+Culture=neutral,+PublicKeyToken=71e9bce111e9429c";
             
 PY2 = sys.version_info[0] == 2
 PY3 = sys.version_info[0] == 3
